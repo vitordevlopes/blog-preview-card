@@ -26,25 +26,19 @@ body {
     cursor: url(assets/images/cursos_pointer.png), auto;
 }
 
-
-
 .card-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 24px;
-    width: 90%;
-    max-width: 384px;
-    height: 537px;
+    max-width: 24rem;
     padding: 24px;
     border: 2px solid var(--main-color);
     border-radius: 20px;
     box-shadow: 8px 8px 0px 0px var(--main-color);
     background-color: var(--background-card);
 }
-
-
 
 .image-container img {
     width: 100%;
@@ -57,31 +51,28 @@ body {
     gap: 16px;
 }
 
-.label-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.label-text {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--main-color);
     border-radius: 4px;
-    width: 122px;
+    max-width: 7.625rem;
     height: 44px;
     background-color: var(--background-color);
-}
 
-.label-text {
-    
-    font-weight: 800;
-    font-size: 24px;
-    color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 .date {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: var(--main-color);
 }
 
 .title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 800;
     color: var(--main-color);
 }
@@ -91,7 +82,7 @@ body {
 }
 
 .main-paragraph {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--text-color);
 }
@@ -101,7 +92,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 12px;
-    font-size: 14px;
+    font-size: 0.875rem; 
     font-weight: 800;
 }
 
